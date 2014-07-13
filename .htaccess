@@ -1,3 +1,5 @@
 RewriteEngine       On              # Turn on the rewriting engine
-RewriteRule         ^about/?$       index.html    [NC,L]    # Handle requests for "about"
-RewriteRule         ^blog/?$        blog.html    [NC,L]    # Handle requests for "blog"
+RewriteRule         ^about/?$       index.html        [NC,L]    # Handle requests for "about"
+RewriteRule         ^blog/?$        blog.html         [NC,L]    # Handle requests for "blog"
+RewriteRule         ^portfolio/?$    portfolio.html    [NC,L]    # Handle requests for "portfolio"
+RewriteRule         ^connect/?$     connect.html      [NC,L]    # Handle requests for "connect"
